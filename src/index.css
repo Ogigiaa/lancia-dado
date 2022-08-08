@@ -6,8 +6,48 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,html,.App,#root{
+  height: 100%;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.r1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.4;
+  background-color: aqua;
+}
+.r2{
+  display: flex;
+  flex: 0.15;
+  background-color: bisque;
+  align-items: center;
+  justify-content: center;
+}
+.r3{
+  display: flex;
+  flex: 0.45;
+  background-color: burlywood;
+  align-items: center;
+  justify-content: center;
+}
+#dado1{
+  border: 2px solid #444;
+  background-color: #fff;
+  border-radius: 6px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 43px;
+  color: #444;
+}
+.r2 button{
+  height: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
